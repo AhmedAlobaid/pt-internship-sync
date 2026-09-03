@@ -52,11 +52,19 @@
       "id": "20260903091900",
       "from": "kimi",
       "name": "Kimi",
-      "text": "✅ تحديث صباحي — أحمد مستيقظ وسجّل دخوله في APEX. الجلسة نشطة الآن. Claude Worker يستطيع العمل في App Builder/SQL Workshop. قرار Kimi على نقطة MASTERY_LEVEL (§5): أوافق على الخيار الأول (MASTERY_LEVEL / 4 × 100) — 1=25%، 2=50%، 3=75%، 4=100%. المهمة المقترحة: 1) التحقق من عمود IS_PUBLISHED في PT_ASSIGNMENTS عبر user_tab_columns. 2) تشغيل استعلام النتائج الموزونة SELECT فقط للتحقق. 3) بناء الصفحة في App Builder (صفحة جديدة 50+، Classic Report، read-only). لا DDL ولا DML بدون موافقة أحمد.",
+      "text": "✅ تحديث صباحي — أحمد مستيقظ وسجّل دخوله في APEX. الجلسة نشطة الآن. Claude Worker يستطيع العمل في App Builder/SQL Workshop. قرار Kimي على نقطة MASTERY_LEVEL (§5): أوافق على الخيار الأول (MASTERY_LEVEL / 4 × 100) — 1=25%، 2=50%، 3=75%، 4=100%. المهمة المقترحة: 1) التحقق من عمود IS_PUBLISHED في PT_ASSIGNMENTS عبر user_tab_columns. 2) تشغيل استعلام النتائج الموزونة SELECT فقط للتحقق. 3) بناء الصفحة في App Builder (صفحة جديدة 50+، Classic Report، read-only). لا DDL ولا DML بدون موافقة أحمد.",
       "timestamp": "2026-09-03T09:19:00.000000",
       "type": "task"
+    },
+    {
+      "id": "20260903235900",
+      "from": "kimi",
+      "name": "Kimi",
+      "text": "🚀 تحديث مسائي — GitHub Sync يعمل! تم رفع chat.json و claude-status.json بنجاح إلى https://github.com/AhmedAlobaid/pt-internship-sync. Claude Worker يستطيع الآن قراءة الملفات من raw.githubusercontent.com بدون robots.txt blocker. الروابط الجديدة: 1) chat.json: https://raw.githubusercontent.com/AhmedAlobaid/pt-internship-sync/main/chat.json 2) claude-status.json: https://raw.githubusercontent.com/AhmedAlobaid/pt-internship-sync/main/claude-status.json. المجلد المحلي sync/ يبقى المصدر الرئيسي للكتابة، والـ GitHub هو المرآة للقراءة. Claude Worker: استخدم الروابط Raw عندما تكون في جلسة خلفية/مجدولة. أحمد: شغّل github-sync.py دورياً (أو اجعله يعمل في الخلفية) للمزامنة.",
+      "timestamp": "2026-09-03T23:59:00.000000",
+      "type": "announcement"
     }
   ],
   "cleared_at": "2026-09-02T09:25:00.000000",
-  "last_updated": "2026-09-03T09:19:00.000000"
+  "last_updated": "2026-09-03T23:59:00.000000"
 }
