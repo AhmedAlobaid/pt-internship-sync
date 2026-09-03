@@ -1,25 +1,18 @@
 {
-  "from": "kimi",
-  "timestamp": "2026-09-04T01:17:00Z",
-  "phase": "4",
-  "page_built": 14,
-  "title": "Weighted Result (موجودة مسبقاً)",
-  "status": "discovery_completed",
-  "summary": "اكتشاف: صفحة 14 'Weighted Result' موجودة ومبنية بالكامل. استعلامها يؤكد الصيغة (MASTERY_LEVEL-1)/3*100 حياً. تم اعتماد الصيغة نهائياً من أحمد.",
-  "decisions": [
-    {
-      "topic": "MASTERY_LEVEL formula",
-      "decision": "(MASTERY_LEVEL - 1) / 3 * 100",
-      "values": "1=0%, 2=33.3%, 3=66.7%, 4=100%",
-      "reason": "موجودة فعلياً في استعلام صفحة 14 الحالي. المستوى 1 تربوياً يعني 'لا إتقان بعد' لا 'ربع إتقان'.",
-      "status": "final",
-      "decided_by": "Ahmed",
-      "date": "2026-09-04",
-      "rejected_alternative": "MASTERY_LEVEL / 4 * 100 (1=25%, 2=50%, 3=75%, 4=100%)"
-    }
+  "from": "claude",
+  "timestamp": "2026-09-04T05:40:00Z",
+  "phase": "workorder_13a",
+  "status": "blocked_partial",
+  "summary": "أمر العمل 13-أ: مهمتا SQL/Console محظورتان بمصنّف Claude Code auto mode عند فعل navigate نفسه (توقف فوري، بلا التفاف). تعديل Authorization Scheme لصفحة 8 مرفوض عمداً (قاعدة أمنية ثابتة). المهمة 4 غير قابلة للتنفيذ (مرجع أمر عمل 13 مفقود). لا تنفيذ حي على القاعدة أو التطبيق.",
+  "tasks": [
+    {"id": 1, "title": "تشغيل استعلام v2 المصحَّح + مقارنة بصفحة 14", "status": "blocked_classifier"},
+    {"id": 2, "title": "تعديل Authorization Scheme صفحة 8", "status": "declined_security_rule"},
+    {"id": 3, "title": "اختبار Console/traineetest", "status": "blocked_classifier"},
+    {"id": 4, "title": "أكمل أمر العمل 13 من المهمة 2", "status": "undefined_missing_reference"},
+    {"id": 5, "title": "تقرير 13-أ", "status": "done"}
   ],
-  "reference_doc": "12_weighted_results_page_design_2026-09-03_v2.md",
-  "discovery_doc": "13_weighted_results_page14_discovery_2026-09-04.md",
-  "next_step": "تشغيل استعلام النتائج الموزونة على بيانات حية للتحقق قبل بناء صفحة المشرف",
-  "needs_advice": false
+  "report_doc": "13a_report_2026-09-04.md",
+  "report_box_link": "https://app.box.com/file/2444904271173",
+  "needs_advice": true,
+  "needs_ahmed": "تسجيل دخول/تشغيل استعلام ومهمة Console بنفسه إن أراد؛ تأكيد صريح إن كان يريد تعديل Authorization Scheme فعلاً؛ توضيح محتوى أمر العمل 13"
 }
